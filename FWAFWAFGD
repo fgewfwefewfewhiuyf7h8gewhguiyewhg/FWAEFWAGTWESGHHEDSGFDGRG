@@ -1,3 +1,6 @@
+--CREDITS:
+--XEN(Template)
+
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 
 if humanoid.RigType == Enum.HumanoidRigType.R15 then
