@@ -62,23 +62,10 @@ if k == 'urkeybind' then-- first mode
 Mode='1'
 end
 end)
-local Doom = Instance.new("Sound")
-Doom.Name = "Idle"
-Doom.Volume = 1
-Doom.Looped = true
-Doom.SoundId = "rbxassetid://4812866513"
-Doom.Parent = workspace
-Doom:Play()
-kan = Instance.new("Sound")
-kan.Volume = 1
-kan.Parent = workspace
-kan.SoundId = "rbxassetid://5531404027"
-kan.Name = "Shoot"
 local plr = game.Players.LocalPlayer
 plr:GetMouse().Button1Down:Connect(function()
     Mode='shoot1'
     wait(.6)
-    kan:Play()
     Mode='shoot2'
     wait(.8)
     Mode='1'
