@@ -65,6 +65,7 @@ end)
 local Doom = Instance.new("Sound")
 Doom.SoundId = "https://www.roblox.com/asset/?id=5610832110"
 Doom.Volume = 0.4
+Doom.Looped = true
 Doom.Parent = reanim.Head
 Doom:Play()
 local plr = game.Players.LocalPlayer
