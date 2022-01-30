@@ -65,7 +65,6 @@ local ShotgunShoot = Instance.new("Sound")
 ShotgunShoot.SoundId = "https://www.roblox.com/asset/?id=642890855"
 ShotgunShoot.Volume = 2
 ShotgunShoot.Parent = reanim.Head
-ShotgunShoot.Looped = true
 plr:GetMouse().Button1Down:Connect(function()
     click = false
     Mode='shoot1'
