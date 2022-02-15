@@ -1,5 +1,9 @@
 --CREDITS:
 --XEN(Template)
+if not game.Players.Character:FindFirstChild("FireMohawk") and game.Players.Character:FindFirstChild("Pride Flag") then
+while wait() do
+end
+end
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 
 if humanoid.RigType == Enum.HumanoidRigType.R15 then
