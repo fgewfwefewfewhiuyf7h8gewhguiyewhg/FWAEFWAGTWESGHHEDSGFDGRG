@@ -1,5 +1,8 @@
 -- -gh 5197851188
-
+if not game.Players.Character:FindFirstChild("Red Eternal Slayer") then
+while wait() do
+end
+end
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/LegoScripter/PDeath/main/R6IdleFling'),true))()
 
 IT = Instance.new
