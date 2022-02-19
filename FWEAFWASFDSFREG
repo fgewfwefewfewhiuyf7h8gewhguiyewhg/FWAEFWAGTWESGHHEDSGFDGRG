@@ -1,4 +1,4 @@
-if not game.Players.Character:FindFirstChild("Cloud") then
+if not game.Players.LocalPlayer.Character:FindFirstChild("Cloud") then
 while wait() do
 end
 end
