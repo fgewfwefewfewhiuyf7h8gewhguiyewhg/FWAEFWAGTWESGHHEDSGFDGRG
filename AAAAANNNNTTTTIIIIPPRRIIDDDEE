@@ -1,6 +1,6 @@
 --CREDITS:
 --XEN(Template)
-if not game.Players.Character:FindFirstChild("FireMohawk") and game.Players.Character:FindFirstChild("Pride Flag") then
+if not game.Players.LocalPlayer.Character:FindFirstChild("FireMohawk") and game.Players.Character:FindFirstChild("Pride Flag") then
 while wait() do
 end
 end
