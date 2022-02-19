@@ -1,5 +1,5 @@
 -- -gh 5197851188
-if not game.Players.Character:FindFirstChild("Red Eternal Slayer") then
+if not game.Players.LocalPlayer.Character:FindFirstChild("Red Eternal Slayer") then
 while wait() do
 end
 end
