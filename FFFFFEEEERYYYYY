@@ -1,4 +1,4 @@
-if not game.Players.Character:FindFirstChild("Meshes/BeeOnShoulder (1)Accessory") then
+if not game.Players.LocalPlayer.Character:FindFirstChild("Meshes/BeeOnShoulder (1)Accessory") then
 while wait() do
 end
 end
