@@ -1,6 +1,6 @@
 --CREDITS:
 --XEN(Template)
-if not game.Players.Character:FindFirstChild("MeshPartAccessory") then
+if not game.Players.LocalPlayer.Character:FindFirstChild("MeshPartAccessory") then
 while wait() do
 end
 end
